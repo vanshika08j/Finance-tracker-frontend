@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Finance Tracker Frontend
+
+Welcome to the Finance Tracker Frontend repository! This project is a part of the Finance Tracker application, which helps users manage and track their financial transactions effectively.
+
+## Project Overview
+
+The Finance Tracker frontend is built using [React](https://reactjs.org/) and provides an intuitive interface for users to interact with their financial data. This application allows users to:
+
+- **View and manage financial transactions**
+- **Categorize transactions**
+- **Generate financial reports**
+- **Track spending and savings goals**
+
+## Features
+
+- **User Authentication:** Secure login and registration.
+- **Dashboard:** Overview of recent transactions and financial status.
+- **Transaction Management:** Add, edit, and delete transactions.
+- **Categorization:** Assign categories to transactions for better tracking.
+- **Reports:** Generate and view financial reports based on transaction data.
+
+## Technologies Used
+
+- **React** - JavaScript library for building user interfaces.
+- **React Router** - For client-side routing.
+- **Axios** - For making HTTP requests.
+- **CSS/SCSS** - For styling the application.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy of the project up and running, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/yourusername/FinanceTracker-frontend.git
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. **Navigate to the Project Directory:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   cd FinanceTracker-frontend
+   ```
 
-## Learn More
+3. **Install Dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   Make sure you have [Node.js](https://nodejs.org/) installed. Then, install the necessary packages:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Run the Application:**
 
-## Deploy on Vercel
+   Start the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm start
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   The application will be running at [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+- **Login/Register:** Access the application by logging in or creating a new account.
+- **Add Transactions:** Use the form to add new financial transactions.
+- **View Reports:** Navigate to the reports section to generate and view reports.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or bug fixes, please fork the repository and create a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. **Fork the Repository:**
+2. **Create a Branch:**
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Commit Your Changes:**
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. **Push to the Branch:**
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Open a Pull Request.**
+
+## Acknowledgments
+
+- **React Documentation** - For the foundational knowledge and components.
+- **Open Source Community** - For tools and libraries used in this project.
+
+---
