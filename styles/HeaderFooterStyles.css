@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0f1b2b; /* Dark bluish-black background for the entire page */
+  color: #ffffff; /* White text color for readability */
+}
+
+/* Header Styles */
+.header {
+  background-color: #1a2b4c; /* Darker blue background for the header */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #284973; /* Border to create separation from the page */
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* White logo text */
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: #c0cde4; /* Light blue color for nav items */
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #81a4cd; /* Lighter blue on hover */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #1a2b4c; /* Same color as the header for consistency */
+  padding: 20px;
+  text-align: center;
+  border-top: 3px solid #284973; /* Border to create separation from the page */
+}
+
+.footer-text {
+  color: #c0cde4; /* Light blue color for footer text */
+  font-size: 16px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-link {
+  color: #81a4cd; /* Lighter blue for footer links */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #c0cde4; /* Light blue on hover */
+}

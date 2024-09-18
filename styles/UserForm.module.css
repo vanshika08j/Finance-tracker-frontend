@@ -1,0 +1,22 @@
+/* styles/UserForm.module.css */
+.userFormContainer {
+    margin-top: 20px;
+  }
+  
+  .userFormInput {
+    margin-bottom: 10px;
+  }
+  
+  .userFormButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .userFormButton:hover {
+    background-color: #005bb5;
+  }
+  

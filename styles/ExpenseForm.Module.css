@@ -1,0 +1,14 @@
+/* styles/ExpenseForm.module.css */
+.expenseFormContainer {
+    margin-top: 20px;
+  }
+  
+  .expenseFormInput {
+    margin-bottom: 10px;
+  }
+  
+  .expenseFormButton {
+    background-color: #0070f3;
+    color: white;
+    border: none
+  }

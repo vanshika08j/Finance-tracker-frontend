@@ -1,0 +1,9 @@
+/* styles/ExpenseList.module.css */
+.expenseListContainer {
+    margin-top: 20px;
+  }
+  
+  .expenseListItem {
+    margin-bottom: 10px;
+  }
+  

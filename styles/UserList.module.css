@@ -1,0 +1,9 @@
+/* styles/UserList.module.css */
+.userListContainer {
+    margin-top: 20px;
+  }
+  
+  .userListItem {
+    margin-bottom: 10px;
+  }
+  
